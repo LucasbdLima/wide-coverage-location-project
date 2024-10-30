@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    margin: 47px 0 209px 42px;
+}
+
+.header-link{
+    color: #17233D;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.875px;
+    margin-right: 36px;
+    cursor: pointer;
+}
+
+.button-header{
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    width: 124px;
+    height: 51px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+img{
+    margin-left: 182px;
+    width: 533.834px;
+    height: 466.9px;
+    display: inline-block;
+}
+
+section{
+    display: inline-block;
+    margin-left: 87px;
+}
+
+h2{
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+    width: 582px;
+    margin-bottom: 47px;
+}
+
+p{
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    width: 493px;
+    margin-bottom: 55px;
+}   
+
+.footer-link{
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:900px){
+    
+    .header-link{
+        display: none;
+    }
+    img{
+        width: 312px;
+        height: 288px;
+        position: absolute;
+        top: 62%;
+        margin-left: 40px;
+    }
+    h2{
+        font-size: 34px;
+        line-height: 30px;
+        width: 278px;
+        height: 60px;
+        text-align: center;
+    }
+    p{
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        width: 304px;
+        height: 165px;
+    }
+    .footer-link{
+        font-size: 18px;
+        line-height: normal;
+        margin-left: 80px;
+    }
+    .button-header{
+        width: 91px;
+        height: 31px;
+        position: relative;
+        left: 65%;
+    }
+    header{
+        margin-bottom: 63px;
+    }
+    section{
+        position: relative;
+        right: 30px;
+    }
+}
